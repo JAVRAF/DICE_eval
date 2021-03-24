@@ -1,0 +1,76 @@
+html, body{
+    height: 100%;
+}
+
+body {
+  background: linear-gradient(
+  to right, 
+  #eeb561 0%, 
+  #e4bb70 100%, 
+  #d69508 50%, 
+  #ee9003 100%
+   );
+  font-family: 'Lato', sans-serif;   
+}
+
+main {
+ background: linear-gradient(
+ to right, 
+ #EAEAEA 0%, 
+ #EAEAEA 50%, 
+ #ffffff 50%, 
+ #ffffff 100%
+  );
+  width: 100%;
+  height: 100%;
+  margin: 20px;
+
+}
+
+.title {
+    font-size: 60px;
+}
+
+.options {
+    font-size: 28px;
+}
+
+.current {
+    width : 170px;
+    height : 120px;
+    background-color: red;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+}
+
+.mainRow {
+    height: 33%;
+}
+
+.icon {
+    margin-right: 20px;
+}
+
+canvas {
+    width: 60px;
+    height: auto;
+}
+
+#canvasDot1 {
+    display: block;
+}
+
+#canvasDot2 {
+    display: none;
+}
+
+#round1, #round2 {
+    font-size: 50px;
+    color: white;
+}
+
+#global1, #global2 {
+    color: red;
+    font-size: 80px;
+}
